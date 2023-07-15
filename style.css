@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.bgImage{
+    background-image: url("image.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+}
+.menu{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+
+}
+.leftMenu{
+    width: 25%;
+    float: left;
+    line-height: 100px;
+    /* background-color: red; */
+    text-align: center;
+}
+.leftMenu h4{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.rightMenu{
+    width: 50%;
+    float: right;
+    /* background-color: rebeccapurple; */
+}
+.rightMenu ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+.rightMenu ul li:first-child{
+    color:  #28d8ff;;
+}
+.rightMenu ul li:hover{
+    color:  #28d8ff;
+    cursor: pointer;
+}
+.text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+}
+.text h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.text h1{
+    font-size: 5rem;
+    margin: 1rem;
+}
+.text h3{
+    font-size: 2rem;
+    margin-bottom:1rem ;
+}
+.buttonDiv button{
+    padding: .7rem 1.4rem;
+    border: 2px solid #28d8ff;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.buttonDiv button:hover{
+    color: #28d8ff;
+    border: 2px solid white;
+    
+}
